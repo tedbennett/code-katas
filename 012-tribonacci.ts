@@ -2,8 +2,11 @@
 
 export function tribonacci([a, b, c]: [number, number, number], n: number): number[] {
     // your code here
-    let num = 0;
-    return [num];
+    let series = [a, b, c];
+    for (var i = 0; i < n - 3; i++) {
+        series.push(series.slice(-3).reduce((a, b) => a + b, 0));
+    }
+    return series.slice(0, n);
 }
 
 
