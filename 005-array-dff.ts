@@ -1,3 +1,5 @@
+//https://www.codewars.com/kata/523f5d21c841566fde000009
+
 // Implement a difference function, which subtracts one list from another and returns the result.
 // 
 // Brute force is to iterate over both arrays and check if each element appears in the other

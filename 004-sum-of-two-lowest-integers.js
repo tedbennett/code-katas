@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/558fc85d8fd1938afb000014
+
 // Find the sum of the two smallest numbers in an array of positive integers
 //
 // Simplest method - sort and use first two elements

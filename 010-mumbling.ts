@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+
 export function accum(s: string): string {
     //let accumString = "";
     let chars = s.toLowerCase().split('');

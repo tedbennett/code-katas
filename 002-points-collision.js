@@ -1,5 +1,8 @@
-// You are given two different points on a plane. Each point has its own initial coordinates and own velocity vector
-// (in some units per second). The points start moving with given velocities at the same moment in time.
+// https://www.codewars.com/kata/589a785f77c96080b7000050
+
+// You are given two different points on a plane. Each point has its own initial coordinates and
+// own velocity vector (in some units per second). The points start moving with given velocities
+// at the same moment in time.
 // Will they collide?
 
 export default function pointsCollision(p, q, u, v) {

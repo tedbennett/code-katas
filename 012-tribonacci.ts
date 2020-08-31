@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/556deca17c58da83c00002db
+
 export function tribonacci([a, b, c]: [number, number, number], n: number): number[] {
     // your code here
     let num = 0;

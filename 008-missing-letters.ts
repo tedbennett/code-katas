@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5839edaa6754d6fec10000a2
+
 export function findMissingLetter(array: string[]): string {
     let alphabet = [
         "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",

@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/562e274ceca15ca6e70000d3
+
 // n numbers of intervals
 function lenCurve(n) {
   // your code
@@ -9,7 +11,7 @@ function lenCurve(n) {
   let length = 0;
   let prevX = fx(minX);
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < n; i += 1) {
     const nextX = fx((i + 1) * h);
     length += Math.sqrt(h ** 2 + (nextX - prevX) ** 2);
     prevX = nextX;
